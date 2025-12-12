@@ -1,0 +1,175 @@
+body{
+  background: #eee;
+  font-family: verdana;
+  font-size: 30px;
+}
+
+.cal-body{
+  position: relative;
+  background: #000;
+  width: 30%;
+  height: 1000px;
+  margin: 100px auto;
+  border-radius: 60px;
+}
+
+.cal-input{
+  background: none;
+  position: relative;
+  width: 90%;
+  height: 90px;
+  top: 60px;
+  right: 40px;
+  font-weight: bolder;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 3em;
+  color: #fff;
+}
+
+.cal-number{
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  background: #515050;
+  top: 90px;
+  left: 20px;
+  margin: 5px 15px;
+  width: 140px;
+  font-weight: bold;
+  height: 140px;
+  font-size: 2em;
+  text-align: center;
+  border-radius: 70px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+span{
+  position: relative;
+  top: 30px;
+}
+
+.operate{
+  background: #f0ecec;
+  color: #000;
+}
+
+.operators{
+  background: #ffa500;
+}
+
+.zero{
+  width: 317px;
+  text-align: left;
+}
+
+#zero{
+  left: 50px;
+}
+
+.cal-number:hover{
+  background: #f0ecec;
+  color: #000;
+}
+
+.operate:hover{
+  color: #fff;
+  background: #ffa500;
+}
+
+.operators:hover{
+  background: #515050;
+  color: #ffa500;
+}
+
+@media screen  and (max-width: 2100px) {
+  body{
+  background: #eee;
+  font-family: verdana;
+  font-size: 25px;
+}
+
+.cal-body{
+  position: relative;
+  background: #000;
+  width: 400px;
+  height: 500px;
+  margin: 50px auto;
+  border-radius: 30px;
+}
+
+.cal-input{
+  background: none;
+  position: relative;
+  width: 45%;
+  height: 45px;
+  top: 15px;
+  left: 70px;
+  font-weight: bolder;
+  text-align: right;
+  margin: 0 auto;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.cal-number{
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  background: #515050;
+  top: 50px;
+  left: 25px;
+  margin: 2px 7px;
+  width: 70px;
+  font-weight: bold;
+  height: 70px;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 35px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+span{
+  position: relative;
+  top: 19px;
+  left: -2px;
+}
+
+.operate{
+  background: #f0ecec;
+  color: #000;
+}
+
+.operators{
+  background: #ffa500;
+}
+
+.zero{
+  width: 160px;
+  text-align: left;
+}
+
+#zero{
+  left: 25px;
+}
+
+.cal-number:hover{
+  background: #f0ecec;
+  color: #000;
+}
+
+.operate:hover{
+  color: #fff;
+  background: #ffa500;
+}
+
+.operators:hover{
+  background: #515050;
+  color: #ffa500;
+}
+
+}
