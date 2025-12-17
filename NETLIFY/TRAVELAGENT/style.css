@@ -1,12 +1,12 @@
 body{
   font-family: sans-serif;
-  background-image: url(/image/travelbg6.jpeg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   max-width: 960px;
-   color: #fff;
-   font-size: 20px;
+  background-image: url(images/travelbg6.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 960px;
+  color: #fff;
+  font-size: 20px;
 }
 
 header{
@@ -153,4 +153,35 @@ main section div.section-div-1 span:nth-child(3){
   font-size: 18px; 
   position: relative; 
   left: 10px;
+}
+/* Media query */
+@media (max-width: 414px){
+  body{
+    font-size: 16px;
+  }
+  nav ul:nth-child(1){
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    left: 0;
+    bottom: 40px;
+  }
+  nav ul:nth-child(2){
+    left: 0;
+    bottom: 60px;
+    width: 150px;
+    grid-template-columns: 1fr 1fr;
+  }
+  main h1{
+    font-size: 40px;
+  }
+  main section div.section-div-1{
+    grid-template-columns: 1fr 1fr;
+    width: 200px;
+  }
+  .section-div-2{
+    grid-template-columns: 1fr;
+  }
+  .section-div-2 div:nth-child(4) h4{
+    font-size: 24px;
+  }
 }
